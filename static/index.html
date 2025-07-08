@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>抖音视频无水印解析</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>抖音视频无水印解析</h1>
+            <p>输入抖音分享链接，获取无水印视频或图文。</p>
+        </header>
+        <main>
+            <div class="input-group">
+                <input type="text" id="douyin-url" placeholder="请在此处粘贴抖音分享链接...">
+                <button id="parse-btn">解析</button>
+            </div>
+            <div id="loading" class="hidden">
+                <div class="spinner"></div>
+                <p>正在努力解析中...</p>
+            </div>
+            <div id="result" class="hidden">
+                <h2>解析结果</h2>
+                <div id="result-content"></div>
+            </div>
+        </main>
+        <footer>
+            <p><a href="https://okhk.net/" target="_blank">OKHK</a></p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

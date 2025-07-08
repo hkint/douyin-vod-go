@@ -1,0 +1,55 @@
+gitignore
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test binaries
+*_test
+
+# Output of go build
+# If you use go build -o custom_output, add custom_output to this list
+*.exe
+*.out
+
+# Dependency directories (these are now handled by Go Modules)
+# vendor/
+
+# IDEs and editor directories
+.idea/
+.vscode/
+
+# gometalinter
+.cache/
+
+# Godep package manager (deprecated)
+Godeps/
+
+# Build outputs from certain tools
+dist/
+build/
+
+# Environment files
+.env
+
+# log files
+*.log
+
+# Temporary files
+*.tmp
+
+# Secrets/credentials (should be handled by environment variables or secret management)
+# config/secrets.yaml
+
+# Database files (should be handled by database migrations or separate storage)
+*.sqlite3
+
+# Compiled templates (if applicable)
+# templates/compiled/
+
+# macOS temporary files
+.DS_Store
+
+# Windows temporary files
+Thumbs.db
